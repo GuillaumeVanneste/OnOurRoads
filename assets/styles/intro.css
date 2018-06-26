@@ -1,0 +1,191 @@
+/***********************
+
+         INTRO
+
+***********************/
+
+body {
+    background: #2A2A2A;
+}
+
+.intro .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro .background .opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(1.2);
+}
+
+.intro.active .background .opacity {
+    opacity: 0.5;
+    transition: opacity 500ms 1600ms ease-in;
+    will-change: opacity;
+}
+
+.intro.fp-completely .background .opacity {
+    opacity: 0.5;
+}
+
+.intro .background img {
+    width: 100%;
+    opacity: 0;
+    transform: scale(1.1) translateY(-15vw);
+    transition: opacity 500ms 500ms ease-in;
+    will-change: transform;
+}
+
+/***** Trafic Points *****/
+
+.intro .traficPoints div {
+    position: absolute;
+    background: rgba(123, 0, 0, 0.44);
+    border-radius: 100%;
+    opacity: 0;
+    width: 2vw;
+    height: 2vw;
+    transform: scale(0);
+}
+
+/** Bigger trafics **/
+
+/* America */
+.intro.active .traficPoints div:nth-child(1) {
+    top: 11vw;
+    left: 18vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(2) {
+    top: 35vw;
+    left: 31vw;
+    opacity: 1;
+    transform: scale(0.8);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+/* Africa */
+.intro.active .traficPoints div:nth-child(3) {
+    top: 31vw;
+    left: 51vw;
+    opacity: 1;
+    transform: scale(2.8);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(4) {
+    top: 30vw;
+    left: 48vw;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+/* Europa */
+.intro.active .traficPoints div:nth-child(5) {
+    top: 14vw;
+    left: 54vw;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(6) {
+    top: 15.8vw;
+    left: 53.8vw;
+    opacity: 1;
+    transform: scale(1.7);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(7) {
+    top: 17.5vw;
+    left: 54.4vw;
+    opacity: 1;
+    transform: scale(1.7);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+/* Asia */
+.intro.active .traficPoints div:nth-child(8) {
+    top: 20.8vw;
+    left: 81vw;
+    opacity: 1;
+    transform: scale(1.7);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+/** Smaller trafics **/
+
+/* South America */
+.intro.active .traficPoints div:nth-child(8) {
+    top: 20.8vw;
+    left: 81vw;
+    opacity: 1;
+    transform: scale(1.7);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.fp-completely .background .traficPoints div{
+    opacity: 1;
+}
+
+.intro.active .background img {
+    opacity: 1;
+}
+
+.intro h1 {
+    font-family: Rockwell;
+    opacity: 1;
+    color: white;
+}
+
+.intro.active h1 {
+    opacity: 0;
+    animation: fade 500ms 2000ms ease-in forwards;
+    will-change: opacity;
+}
+
+/***********************
+
+       KEYFRAMES
+
+***********************/
+
+@keyframes fade {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+/***********************
+
+        FOOTER
+
+***********************/
+
+
+@media (max-width: 900px) {
+    .intro .background .scale {
+        transform: scale(1.6) translateY(15vw);
+    }
+}

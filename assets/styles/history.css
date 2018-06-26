@@ -1,0 +1,18 @@
+.history {
+    padding: 0;
+}
+
+.history h1,
+.history p {
+    color: white;
+}
+
+.history .subheader {
+    padding-left: 13%;
+    margin-bottom: 36px;
+    line-height: 18px;
+}
+
+.history .subheader + p {
+    line-height: 24px;
+}
