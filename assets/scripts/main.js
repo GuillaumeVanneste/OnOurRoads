@@ -6,8 +6,7 @@ const $footer = document.querySelector('footer')
 const $progressBar = $footer.querySelector('.progress')
 const $fillBar = $progressBar.querySelector('.fillBar')
 
-
-$main.addEventListener('mousewheel', () => {
+const init = () => {
     let id = null
     for (let i = 0; i < $slide.length; i++) {
         if ($slide[i].classList.contains('active')) {
@@ -29,4 +28,5 @@ $main.addEventListener('mousewheel', () => {
             $fillBar.style.width = '100%'
             break;
     }
-});
+}
+window.setInterval(init, 100)

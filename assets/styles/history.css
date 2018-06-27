@@ -1,18 +1,53 @@
 .history {
     padding: 0;
+    z-index: -10000;
 }
 
 .history h1,
 .history p {
-    color: white;
+    color: #B5B1AA;
 }
 
 .history .subheader {
-    padding-left: 13%;
     margin-bottom: 36px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: transform 500ms 400ms ease-in, opacity 300ms 400ms ease-in;
+    will-change: transform, opacity;
 }
 
-.history .subheader + p {
+.history .content {
+    font-size: 18px;
     line-height: 24px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 600ms 900ms ease-in, opacity 600ms 900ms ease-in;
+    will-change: transform, opacity;
+}
+
+#section2 .content {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: transform 500ms 500ms ease-in, opacity 300ms 500ms ease-in;
+    will-change: transform, opacity;
+}
+
+.history.active .subheader {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.history.active .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#section2.active .content {
+    transform: translateX(0px);
+    opacity: 1;
 }
