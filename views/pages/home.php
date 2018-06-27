@@ -4,6 +4,10 @@
         <div class="title1">
             <h1>Histoire</br>Formes</h1>
         </div>
+
+        <div class="title2">
+            <h1>Géographie</br>Economie</h1>
+        </div>
         <div class="line"></div>
     </div>
 </header>
@@ -88,15 +92,9 @@
 
         <!-- section 3 -->
         <div class="section" id="section3">
-            <div class="row center-align">
-                <h1>Test player inc.</h1>
-            </div>
-            <div class="row">
-                <div class="col s12 m6 offset-m3 player">
-                    <video class="responsive-video" controls>
-                        <source src="" type="video/mp4">
-                    </video>
-                </div>
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="opacity"></div>
+                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
             </div>
         </div>
 
