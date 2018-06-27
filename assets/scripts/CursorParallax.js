@@ -46,8 +46,8 @@ class CursorParallax
 
         window.addEventListener('mousemove', (event) =>
         {
-            this.mouse.x = event.clientX / innerWidth - 0.5
-            this.mouse.y = event.clientY / innerHeight - 0.5
+            this.mouse.x =+ event.clientX / innerWidth - 0.5
+            this.mouse.y =+ event.clientY / innerHeight - 0.5
         })
     }
 
@@ -59,11 +59,12 @@ class CursorParallax
 
             for(const item of this.items)
             {
-                const offsetX = - this.mouse.x * 900 * item.amplitude
-                const offsetY = - this.mouse.y * 900 * item.amplitude
+                const offsetX = - this.mouse.x * 100 * item.amplitude
+                const offsetY = - this.mouse.y * 100 * item.amplitude
 
-                item.offsetX = (offsetX - item.offsetX) * 0.05
-                item.offsetY = (offsetY - item.offsetY) * 0.05
+                //Distance
+                item.offsetX += (offsetX - item.offsetX) / 30
+                item.offsetY += (offsetY - item.offsetY) / 30
 
                 const roundedOffsetX = Math.round(item.offsetX * 100) / 100
                 const roundedOffsetY = Math.round(item.offsetY * 100) / 100
