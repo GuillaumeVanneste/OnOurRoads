@@ -42,7 +42,8 @@
 ***********************/
 
 header .title {
-    z-index: 2;
+    position: absolute;
+    z-index: 1;
 }
 
 .header h1 {
@@ -53,10 +54,9 @@ header .title {
 .title {
     position: absolute;
     top: 0;
-    left: 0%;
+    left: 0;
     width: 100%;
     font-family: Rockwell;
-    z-index: 12;
     opacity: 0;
     transform: translateY(-100px);
 }
@@ -94,6 +94,11 @@ header .title {
     width: 100%;
     height: 2px;
     background-color: #8b1014;
+    transition: transform 300ms ease-in;
+}
+
+.line.active {
+    transform: translateX(-50%);
 }
 
 /***********************
@@ -107,6 +112,19 @@ footer.page-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+footer .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    max-height: 25px;
 }
 
 footer .progress {
@@ -132,6 +150,7 @@ footer .progress {
 ***********************/
 
 body {
+    overflow: hidden;
     background: #2A2A2A;
 }
 
@@ -162,4 +181,97 @@ body {
 .background img {
     width: 100%;
     transform: scale(1.2);
+}
+
+/***********************
+
+      INFORMATIONS
+
+***********************/
+
+.information {
+    width: 100%;
+}
+
+.information .infoButton {
+    z-index: 5;
+}
+
+.information a {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.information a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    transform: translate(85%, 50%);
+}
+
+.information .infoSideBar {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    transition: transform 300ms ease-in;
+    will-change: transform;
+    background: black;
+    z-index: 4;
+}
+
+.information .infoSideBar.active {
+    transform: translateX(-100%);
+}
+
+body .opacity,
+.history .opacityBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+    will-change: opacity;
+}
+
+.history .opacityBack {
+    left: 50%;
+}
+
+body .opacity.active,
+.history .opacityBack.active {
+    opacity: 0.55;
+}
+
+/***********************
+
+        Z-INDEX
+
+***********************/
+
+header {
+    z-index: 2;
+}
+
+main {
+    z-index: 1;
+}
+
+footer {
+    z-index: 4;
+}
+
+body .opacity {
+    z-index: 3;
 }

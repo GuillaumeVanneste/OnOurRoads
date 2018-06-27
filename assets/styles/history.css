@@ -4,7 +4,8 @@
 }
 
 .history h1,
-.history p {
+.history p,
+.history h6{
     color: #B5B1AA;
 }
 
@@ -50,4 +51,16 @@
 #section2.active .content {
     transform: translateX(0px);
     opacity: 1;
+}
+
+.history .infoSideBar .infoTitle {
+    font-weight: bolder;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.history .infoSideBar .infoContent {
+    font-size: 18px;
+    line-height: 24px;
 }
