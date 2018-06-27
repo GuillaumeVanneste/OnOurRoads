@@ -1,6 +1,6 @@
 .history {
     padding: 0;
-    z-index: -10000;
+    z-index: -1;
 }
 
 .history h1,
@@ -28,7 +28,7 @@
 }
 
 #section2 .content {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: lighter;
     opacity: 0;

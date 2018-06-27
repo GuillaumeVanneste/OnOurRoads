@@ -26,16 +26,3 @@
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
-<!-- HEADER -->
-<header class="header">
-    <audio src="assets/audios/backgroundSound.mp3" autoplay loop></audio>
-    <div class="title">
-        <div class="title1">
-            <h1>Histoire</br>Formes</h1>
-        </div>
-        <div class="line"></div>
-    </div>
-</header>
-
-<!-- MAIN -->
-<main class="main">

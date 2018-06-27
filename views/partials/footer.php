@@ -2,11 +2,10 @@
 <!-- FOOTER -->
 <footer class="page-footer black">
     <div class="row">
-        <div class="col s12 progress">
+        <div class="col s10 offset-s1 progress">
             <div class="fillBar"></div>
         </div>
     </div>
-
 </footer>
 <audio src="assets/audios/backgroundSound.mp3" autoplay loop></audio>
 <!-- SCRIPTS -->
