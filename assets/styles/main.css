@@ -292,7 +292,7 @@ body {
 }
 
 body .opacity,
-.history .opacityBack {
+.opacityBack {
     position: absolute;
     top: 0;
     left: 0;
@@ -304,12 +304,12 @@ body .opacity,
     will-change: opacity;
 }
 
-.history .opacityBack {
+.opacityBack {
     left: 50%;
 }
 
 body .opacity.active,
-.history .opacityBack.active {
+.opacityBack.active {
     opacity: 0.55;
 }
 

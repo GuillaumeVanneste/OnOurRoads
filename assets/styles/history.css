@@ -1,15 +1,15 @@
-.history {
+.section {
     padding: 0;
     z-index: -1;
 }
 
-.history h1,
-.history p,
-.history h6{
+.section h1,
+.section p,
+.section h6{
     color: #B5B1AA;
 }
 
-.history .subheader {
+.section .subheader {
     margin-bottom: 36px;
     font-size: 18px;
     line-height: 24px;
@@ -19,7 +19,7 @@
     will-change: transform, opacity;
 }
 
-.history .content {
+.section .content {
     font-size: 18px;
     line-height: 24px;
     opacity: 0;
@@ -38,12 +38,12 @@
     will-change: transform, opacity;
 }
 
-.history.active .subheader {
+.section.active .subheader {
     transform: translateX(0px);
     opacity: 1;
 }
 
-.history.active .content {
+.section.active .content {
     transform: translateY(0px);
     opacity: 1;
 }
@@ -53,14 +53,14 @@
     opacity: 1;
 }
 
-.history .infoSideBar .infoTitle {
+.infoSideBar .infoTitle {
     font-weight: bolder;
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 24px;
 }
 
-.history .infoSideBar .infoContent {
+.infoSideBar .infoContent {
     font-size: 18px;
     line-height: 24px;
 }
