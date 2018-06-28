@@ -73,7 +73,8 @@ header .title {
 
 .title1,
 .title2,
-.title3{
+.title3,
+.title4 {
     opacity: 0;
     transition: opacity 600ms ease-in;
     will-change: opacity;
@@ -81,7 +82,8 @@ header .title {
 
 .title1.active,
 .title2.active,
-.title3.active {
+.title3.active,
+.title4.active {
     opacity: 1;
 }
 
@@ -163,19 +165,37 @@ footer .keypoints div {
 }
 
 
-footer.home .keypoints a div.firstPage { left: 0; }
-footer.home .keypoints a div.secondPage { left: 14.3%; }
-footer.home .keypoints a div.thirdPage { left: 28.6%; }
-footer.home .keypoints a div.fourthPage { left: 42.9%; }
-footer.home .keypoints a div.fifthPage { left: 57.2%; }
-footer.home .keypoints a div.sixthPage { left: 71.5%; }
+footer.home .keypoints a div.firstPage   { left: 0; }
+footer.home .keypoints a div.secondPage  { left: 14.3%; }
+footer.home .keypoints a div.thirdPage   { left: 28.6%; }
+footer.home .keypoints a div.fourthPage  { left: 42.9%; }
+footer.home .keypoints a div.fifthPage   { left: 57.2%; }
+footer.home .keypoints a div.sixthPage   { left: 71.5%; }
 footer.home .keypoints a div.seventhPage { left: 85.8%; }
-footer.home .keypoints a div.eighthPage { left: 100%; }
+footer.home .keypoints a div.eighthPage  { left: 100%; }
 
-footer.story .keypoints a div.firstPage { left: 0; }
-footer.story .keypoints a div.secondPage { left: 33.3%; }
-footer.story .keypoints a div.thirdPage { left: 66.6%; }
-footer.story .keypoints a div.fourthPage { left: 100%; }
+footer.prostitution .keypoints a div.firstPage,
+footer.organe .keypoints a div.firstPage {
+    left: 0;
+}
+footer.prostitution .keypoints a div.secondPage,
+footer.organe .keypoints a div.secondPage {
+    left: 33.3%;
+}
+footer.prostitution .keypoints a div.thirdPage,
+footer.organe .keypoints a div.thirdPage {
+    left: 66.6%;
+}
+footer.prostitution .keypoints a div.fourthPage,
+footer.organe .keypoints a div.fourthPage {
+    left: 100%;
+}
+
+footer.migrant .keypoints a div.firstPage   { left: 0; }
+footer.migrant .keypoints a div.secondPage  { left: 25%; }
+footer.migrant .keypoints a div.thirdPage   { left: 50%; }
+footer.migrant .keypoints a div.fourthPage  { left: 75%; }
+footer.migrant .keypoints a div.fifthPage   { left: 100%; }
 
 footer .keypoints a div.borderChange {
     border-color:#9C1A1A;
