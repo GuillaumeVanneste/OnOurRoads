@@ -237,7 +237,7 @@ body {
     z-index: 5;
 }
 
-.information a {
+.information .infoButton {
     position: absolute;
     top: 20%;
     right: 20px;
@@ -248,7 +248,27 @@ body {
     cursor: pointer;
 }
 
-.information a img {
+.information .previous,
+.information .next{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    width: 16px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+.information .previous img {
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+.information .next img {
+    width: 100%;
+    transform: rotate(-90deg);
+}
+
+.information .infoButton img {
     position: absolute;
     top: 0;
     left: 0;
@@ -256,7 +276,8 @@ body {
     transform: translate(85%, 50%);
 }
 
-.information .infoSideBar {
+.information .infoSideBar,
+.information .infoSideBarTwo {
     position: absolute;
     top: 0;
     left: 100%;
@@ -268,7 +289,8 @@ body {
     z-index: 4;
 }
 
-.information .infoSideBar.active {
+.information .infoSideBar.active,
+.information .infoSideBarTwo.active {
     transform: translateX(-100%);
 }
 

@@ -53,14 +53,14 @@
     opacity: 1;
 }
 
-.infoSideBar .infoTitle {
+.information .infoTitle {
     font-weight: bolder;
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 24px;
 }
 
-.infoSideBar .infoContent {
+.information .infoContent {
     font-size: 18px;
     line-height: 24px;
 }

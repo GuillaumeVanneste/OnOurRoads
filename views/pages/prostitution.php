@@ -77,15 +77,36 @@
                     <div class="container">
                         <div class="row">
                             <p class="col s12 infoContent">
-                                L'extrême pauvreté, les troubles sociaux et économiques et la corruption sont les principales causes du problème international de l'esclavage sexuel et la traite humaine.
-                                Le Nigeria regroupe tout cela ainsi que des droits très limités pour les femmes et est le pays d’origine des victimes de traite à des fins d'exploitation sexuelle malgré le fait qu’il soit la deuxième puissance économique d’Afrique et dispose d’importante ressources pétrolières. Mais cette richesse a peu d'effet sur le niveau de vie de la population car plus de la moitié des Nigérians vit avec moins d'1,25 $ par jour. De ce fait, le pays est relativement pauvre et notamment à cause d’une forte corruption (le Nigeria est classé à la 130e place mondiale sur 180 dans le classement 200p de Transparency International).
-                                La forte présence de la corruption au sein du pays permet aux trafiquants d’échapper plus facilement à la justice. En effet, le gouvernement nigérian n’a prononcé que 30 condamnations pour traite en 2014, contre 42 en 2013, ce qui représente une diminution des condamnations.
-                                Quant à la pauvreté des nigérians, elle offre une perspective d'accroissement du trafic d’êtres humains, notamment à des fins de prostitutions, plus qu’important pour les trafiquants. En effet, les victimes sont souvent d'origine rurale et se retrouvent dans des maisons closes dans les grandes villes, en particulier à Lagos et dans l'Etat d'Edo. C’est donc vers ces personnes vulnérable et manipulable que les trafiquants se tournent.
-                                Au Nigeria, les enfants, essentiellement les jeunes filles, sont les cibles principales des trafiquants. Plus de 50 000 jeunes femmes entre 9 et 17 ans sont victimes de trafic à des fins de prostitution. Mais il existe aussi une population masculine prostituée estimée à 865 à Lagos, 642 à Kano et 358 à Port Harcourt.
-
+                                L'extrême pauvreté, les troubles sociaux et économiques et la corruption sont les principales causes du problème international
+                                de l'esclavage sexuel et de la traite humaine.
+                                Le Nigeria regroupe tout cela ainsi que des droits très limités pour les femmes. De plus il est le pays d’origine des victimes
+                                de traite à des fins d'exploitation sexuelle. Et pourtant il est la deuxième puissance économique d’Afrique et dispose d’importante
+                                ressources pétrolières. Mais cette richesse a peu d'effet sur le niveau de vie de la population car plus de la moitié des nigérians
+                                vit avec moins d'1,25 $ par jour. De ce fait, le pays est relativement pauvre et notamment à cause d’une forte corruption
+                                (le Nigeria est classé à la 130e place mondiale sur 180 dans le classement 200p de Transparency International).
+                                La forte présence de la corruption au sein du pays permet aux trafiquants d’échapper plus facilement à la justice. En effet,
+                                le gouvernement nigérian n’a prononcé que 30 condamnations pour traite en 2014, contre 42 en 2013, ce qui représente une diminution
+                                des condamnations.
                             </p>
                         </div>
                     </div>
+                    <a class="next"><img src="assets/images/icons/arrow.png" alt=""></a>
+                </div>
+                <div class="infoSideBarTwo valign-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <p class="col s12 infoContent">
+                                Quant à la pauvreté des nigérians, elle offre une perspective d'accroissement du trafic d’êtres humains, notamment à des fins de
+                                prostitution, plus qu’important pour les trafiquants. En effet, les victimes sont souvent d'origine rurale et se retrouvent dans
+                                des maisons closes dans les grandes villes, en particulier à Lagos et dans l'Etat d'Edo. C’est donc vers ces personnes vulnérable
+                                et manipulable que les trafiquants se tournent.
+                                Au Nigeria, les enfants, essentiellement les jeunes filles, sont les cibles principales des trafiquants. Plus de 50 000 jeunes femmes
+                                entre 9 et 17 ans sont victimes de trafic à des fins de prostitution. Mais il existe aussi une population masculine prostituée estimée
+                                à 865 à Lagos, 642 à Kano et 358 à Port Harcourt.
+                            </p>
+                        </div>
+                    </div>
+                    <a class="previous"><img src="assets/images/icons/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -125,17 +146,31 @@
                                 la rencontre d’un individu qui serait en mesure de les aider financièrement en l’échange d’un service, celui de coucher avec eux
                                 ou de se prostituer pour eux. Suite à leur première expérience, qui les a brisé psychologiquement, ils souhaitent tous ne plus
                                 jamais revivre ça mais continu malgré tout car ils ont besoin d’argent, que ce rapport leur permet d’obtenir.</br>
+                            </p>
+                        </div>
+                    </div>
+                    <a class="next"><img src="assets/images/icons/arrow.png" alt=""></a>
+                </div>
+                <div class="infoSideBarTwo valign-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <h6 class="col s12 infoTitle">Qu’est-ce que c’est ?</h6>
+                        </div>
+                        <div class="row">
+                            <p class="col s12 infoContent">
                                 La deuxième méthode, plus radicale et plus violente, qui peut mener à la mort de personnes, consiste en l’enlèvement par la force
                                 des mineures et à la revente de ces derniers comme esclaves sexuelles. Au Nigeria, un des acteurs majeurs de cette pratique est
                                 Boko Haram qui sévit dans le Nord du pays. L'enlèvement de 276 lycéennes à Chibok en avril 2014 a notamment marqué les esprits,
                                 en raison de la mobilisation internationale autour de la campagne #Bring back our girls.
-
                             </p>
                         </div>
                     </div>
+                    <a class="previous"><img src="assets/images/icons/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
+
+
 
         <!-- section 3 -->
         <div class="section" id="section3">

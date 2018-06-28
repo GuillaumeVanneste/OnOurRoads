@@ -13,6 +13,9 @@ const $main = $body.querySelector('main')
 const $slide = $main.querySelectorAll('.section')
 const $infoButtons = $main.querySelectorAll('.infoButton')
 const $infoSideBars = $main.querySelectorAll('.infoSideBar')
+const $infoSideBars2 = $main.querySelectorAll('.infoSideBarTwo')
+const $next = $main.querySelectorAll('.next')
+const $previous = $main.querySelectorAll('.previous')
 const $opacityBack = $main.querySelectorAll('.opacityBack')
 
 const $footer = $body.querySelector('footer')
@@ -201,6 +204,7 @@ for (let i = 0; i < $infoButtons.length; i++) {
             sideBar.classList.remove('active')
             $opacity.classList.remove('active')
             $opacityBack[i].classList.remove('active')
+            $infoSideBars2[i].classList.remove('active')
         } else {
             $line.classList.add('active')
             sideBar.classList.add('active')
@@ -217,6 +221,7 @@ window.addEventListener('mousewheel', () => {
         const sideBar = $infoSideBars[i]
         sideBar.classList.remove('active')
         $opacityBack[i].classList.remove('active')
+        $infoSideBars2[i].classList.remove('active')
     }
 })
 
@@ -227,6 +232,7 @@ $opacity.addEventListener('mousedown', () => {
         const sideBar = $infoSideBars[i]
         sideBar.classList.remove('active')
         $opacityBack[i].classList.remove('active')
+        $infoSideBars2[i].classList.remove('active')
     }
 })
 
@@ -238,6 +244,23 @@ window.addEventListener('keydown', (event) => {
             const sideBar = $infoSideBars[i]
             sideBar.classList.remove('active')
             $opacityBack[i].classList.remove('active')
+            $infoSideBars2[i].classList.remove('active')
         }
     }
 })
+
+for (let i = 0; i < $next.length; i++) {
+    const next = $next[i]
+    // Player send a malus
+    next.addEventListener('mousedown', () => {
+        $infoSideBars2[i].classList.add('active')
+    })
+}
+
+for (let i = 0; i < $previous.length; i++) {
+    const previous = $previous[i]
+    // Player send a malus
+    previous.addEventListener('mousedown', () => {
+        $infoSideBars2[i].classList.remove('active')
+    })
+}
