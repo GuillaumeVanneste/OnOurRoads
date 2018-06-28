@@ -4,6 +4,7 @@ const $body = document.querySelector('body')
 
 const $header = $body.querySelector('header')
 const $title = $header.querySelector('.title')
+const $title0 = $title.querySelector('.title0')
 const $title1 = $title.querySelector('.title1')
 const $title2 = $title.querySelector('.title2')
 const $title3 = $title.querySelector('.title3')
@@ -55,7 +56,8 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
-                $title1.classList.add('active')
+                $title0.classList.add('active')
+                $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 1
@@ -72,6 +74,7 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
@@ -89,6 +92,7 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
@@ -106,12 +110,13 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 1
                 $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterTitle.innerHTML = 'Chiffres Clés ( Data )'
                 break;
             case 4:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -123,12 +128,13 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 0
                 $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterTitle.innerHTML = 'Chiffres Clés ( Data )'
                 break;
             case 5:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -140,12 +146,13 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 0
                 $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterTitle.innerHTML = 'Chiffres Clés ( Data )'
                 break;
             case 6:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -157,12 +164,13 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 0
                 $chapterNumber.innerHTML = '3'
-                $chapterTitle.innerHTML = 'Choisir une histoire'
+                $chapterTitle.innerHTML = 'Un trafic modial'
                 break;
             case 7:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -174,11 +182,12 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
                 $line.style.opacity = 1
-                $chapterNumber.innerHTML = '3'
+                $chapterNumber.innerHTML = '4'
                 $chapterTitle.innerHTML = 'Choisir une histoire'
                 break;
         }

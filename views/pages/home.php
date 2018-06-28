@@ -2,6 +2,10 @@
 <!-- HEADER -->
 <header class="header">
     <div class="title">
+        <div class="title0">
+            <h1>Une Virée</br>En Enfer</h1>
+        </div>
+
         <div class="title1">
             <h1>Histoire</br>Formes</h1>
         </div>
@@ -28,7 +32,7 @@
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <div class="scale">
-                    <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
+                    <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="traficPoints">
                         <!-- America trafic points -->
                         <div></div>
@@ -59,7 +63,7 @@
         <div class="section history" id="section1">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-history.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-history.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -78,7 +82,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -105,7 +109,7 @@
         <div class="section history" id="section2">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-history2.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-history2.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col s12 m5 offset-m1 content">
@@ -117,7 +121,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -144,7 +148,7 @@
         <div class="section" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
         </div>
 
@@ -152,7 +156,7 @@
         <div class="section data" id="section4">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
             <div class="row subheader">
                 <p class="col m5 offset-m1">
@@ -165,7 +169,7 @@
             </div>
             <div class="row">
                 <div class="col s4 offset-s4">
-                    <img src="assets/images/data-image/world-map.png" alt="" class="data-map">
+                    <img src="<?php echo URL ?>assets/images/data-image/world-map.png" alt="" class="data-map">
                 </div>
             </div>
             <div class="row data-fournisseur">
@@ -173,7 +177,7 @@
             </div>
             <div class="row">
                 <div class="col s1 offset-s5">
-                    <img src="assets/images/data-image/arrow.png" alt="" class="data-arrow">
+                    <img src="<?php echo URL ?>assets/images/data-image/arrow.png" alt="" class="data-arrow">
                 </div>
                 <p class="col s6 data-receveur">Receveurs : <span class="main-data">Europe</span>, <span class="main-data">Etats-Unis</span>, <span class="main-data">Monde Arabe</span></p>
             </div>
@@ -183,7 +187,7 @@
         <div class="section data" id="section5">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
             <div class="subheader">
                 <div class="stat-graph">
@@ -230,7 +234,7 @@
                             </svg>
                         </div>
                         <div class="circle-stat">
-                            <img src="assets/images/data-image/girl.png" alt="">
+                            <img src="<?php echo URL ?>assets/images/data-image/girl.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -264,7 +268,7 @@
                     <div class="people">
                         <div class="bottombar"></div>
                         <div class="barbot"></div>
-                        <img src="assets/images/data-image/brainstorm.png" alt="" class="brainstorm">
+                        <img src="<?php echo URL ?>assets/images/data-image/brainstorm.png" alt="" class="brainstorm">
                         <div class="people-txt">
                                 <div class="main-data people-number">21</div>
                                 <div class="underline"></div>
@@ -280,7 +284,7 @@
             <div class="row">
                 <div class="col s12 m6 offset-m3">
                     <video class="responsive-video" controls>
-                        <source src="assets/videos/introTraficHumain.mp4" type="video/mp4">
+                        <source src="<?php echo URL ?>assets/videos/introTraficHumain.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -290,25 +294,25 @@
         <div class="section choose" id="section6">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="scale">
-                    <img class="map" src="assets/images/backgrounds/home/bg-map.jpg" alt="">
+                    <img class="map" src="<?php echo URL ?>assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="wayPoints">
                         <!-- way points -->
                         <div class="point">
-                            <a href="views/pages/prostitution.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>views/pages/prostitution.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Prostitution</p>
                                 <p>Mariama Biba</p>
                             </div>
                         </div>
                         <div class="point">
-                            <a href="views/pages/organe.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>views/pages/organe.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Organes</p>
                                 <p>Jonh Dixton</p>
                             </div>
                         </div>
                         <div class="point">
-                            <a href="views/pages/migrant.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>views/pages/migrant.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Migrants</p>
                                 <p>Samire Nesri</p>

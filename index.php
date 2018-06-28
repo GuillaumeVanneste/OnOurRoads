@@ -6,6 +6,9 @@
  * Time: 09:48
  */
 
+// URL
+define('URL', '/onOurRoads/');
+
 // Rooter
 $q = empty($_GET['q']) ? '' : $_GET['q'];
 $page = null;

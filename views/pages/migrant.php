@@ -32,7 +32,7 @@
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <div class="scale">
-                    <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
+                    <img src="<?php echo URL ?>assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="traficPoints">
                         <!-- America trafic points -->
                         <div></div>
@@ -63,7 +63,7 @@
         <div class="section" id="section1">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/migrant/bg-migrants.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-migrants.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m7 push-m1 content">
@@ -85,7 +85,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -106,7 +106,7 @@
         <div class="section" id="section1">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/migrant/bg-guerre.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-guerre.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m7 push-m1 content">
@@ -116,7 +116,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -133,7 +133,7 @@
                             </p>
                         </div>
                     </div>
-                    <a class="next"><img src="assets/images/icons/arrow.png" alt=""></a>
+                    <a class="next"><img src="<?php echo URL ?>assets/images/icons/arrow.png" alt=""></a>
                 </div>
                 <div class="infoSideBarTwo valign-wrapper">
                     <div class="container">
@@ -148,7 +148,7 @@
                             </p>
                         </div>
                     </div>
-                    <a class="previous"><img src="assets/images/icons/arrow.png" alt=""></a>
+                    <a class="previous"><img src="<?php echo URL ?>assets/images/icons/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
         <div class="section history" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/migrant/bg-esclavagisme.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-esclavagisme.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -171,7 +171,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -196,7 +196,7 @@
         <div class="section" id="section4">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/migrant/bg-mer.jpg" alt="">
+                <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-mer.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -210,7 +210,7 @@
             </div>
             <div class="opacityBack"></div>
             <div class="information">
-                <a class="infoButton"><img src="assets/images/icons/agenda.png" alt=""></a>
+                <a class="infoButton"><img src="<?php echo URL ?>assets/images/icons/agenda.png" alt=""></a>
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
@@ -227,7 +227,7 @@
                             </p>
                         </div>
                     </div>
-                    <a class="next"><img src="assets/images/icons/arrow.png" alt=""></a>
+                    <a class="next"><img src="<?php echo URL ?>assets/images/icons/arrow.png" alt=""></a>
                 </div>
                 <div class="infoSideBarTwo valign-wrapper">
                     <div class="container">
@@ -247,7 +247,7 @@
                             </p>
                         </div>
                     </div>
-                    <a class="previous"><img src="assets/images/icons/arrow.png" alt=""></a>
+                    <a class="previous"><img src="<?php echo URL ?>assets/images/icons/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
