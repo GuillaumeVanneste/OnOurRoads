@@ -144,23 +144,134 @@
         <div class="section" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
         </div>
 
         <!-- section 4 -->
-        <div class="section" id="section4">
+        <div class="section data" id="section4">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
+            </div>
+            <div class="row subheader">
+                <p class="col m5 offset-m1">
+                    <span class="main-data">127</span> pays victime du trafic
+                </p>
+                <div class="col m6">
+                    <div class="main-data europe">Europe</div>
+                    <p>80% des migrations clandestines sont gérées par des organisations criminelles.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 offset-s4">
+                    <img src="assets/images/data-image/world-map.png" alt="" class="data-map">
+                </div>
+            </div>
+            <div class="row">
+                <p class="col s5 offset-s1">Fournisseur : <span class="main-data">Asie</span>, <span class="main-data">Afrique</span>, <span class="main-data">Europe de l'Est</span></p>
+            </div>
+            <div class="row">
+                <div class="col s1 offset-s5">
+                    <img src="assets/images/data-image/arrow.png" alt="" class="data-arrow">
+                </div>
+                <p class="col s6">Receveurs : <span class="main-data">Europe</span>, <span class="main-data">Etats-Unis</span>, <span class="main-data">Monde Arabe</span></p>
             </div>
         </div>
 
         <!-- section 5 -->
-        <div class="section" id="section5">
+        <div class="section data" id="section5">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
+            </div>
+            <div class="subheader">
+                <div class="stat-graph">
+                    <p class="stat-title">2,4 millions de victimes par an dans le monde</p>
+                    <div class="statistics">
+                        <div class="circle-stat">
+                            <p class="stat-title">66%</p>
+                            <p class="stat-title-2">Femmes</p>
+                            <svg width="200" height="200">
+                                <circle class="outer-woman" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                            <svg width="200" height="200">
+                                <circle class="iner" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                        </div>
+                        <div class="circle-stat">
+                            <p class="stat-title">13%</p>
+                            <p class="stat-title-2">Filles</p>
+                            <svg width="200" height="200">
+                                <circle class="outer-girl" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                            <svg width="200" height="200">
+                                <circle class="iner" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                        </div>
+                        <div class="circle-stat">
+                            <p class="stat-title">13%</p>
+                            <p class="stat-title-2">Hommes</p>
+                            <svg width="200" height="200">
+                                <circle class="outer-man" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                            <svg width="200" height="200">
+                                <circle class="iner" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                        </div>
+                        <div class="circle-stat">
+                            <p class="stat-title">9%</p>
+                            <p class="stat-title-2">Garçons</p>
+                            <svg width="200" height="200">
+                                <circle class="outer-boy" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                            <svg width="200" height="200">
+                                <circle class="iner" cx="95" cy="95" r="55" transform="rotate(-90, 95, 95)"/>
+                            </svg>
+                        </div>
+                        <div class="circle-stat">
+                            <img src="assets/images/data-image/girl.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="redline"></div>
+                <div class="lucratif">
+                    <div class="lucra1"></div>
+                    <p class="lucra1-txt">Trafic d'êtres humains</p>
+                    <div class="lucra2"></div>
+                    <p class="lucra2-txt">Armes</p>
+                    <div class="lucra3"></div>
+                    <p class="lucra3-txt">Drogues</p>
+                    <p class="lucra-title">3ème crime le plus lucratif</p>
+                </div>
+                <div class="dollars">
+                    <div class="dollar1"></div>
+                    <div class="dollar2"></div>
+                    <div class="bar"></div>
+                    <div class="bartop"></div>
+                    <div class="dollar-txt">
+                        <div class="max">
+                            <p class="plus"><span class="main-data">32</span> milliards de dollars</p>
+                            <div class="underline"></div>
+                            <p class="sub-txt">Mondialement</p>
+                        </div>
+                        <div class="min">
+                            <p class="minus"><span class="main-data">3</span>milliards de dollars</p>
+                            <div class="underline"></div>
+                            <p class="sub-txt">Europe</p>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <div class="bottombar"></div>
+                        <div class="barbot"></div>
+                        <img src="assets/images/data-image/brainstorm.png" alt="" class="brainstorm">
+                        <div class="people-txt">
+                                <div class="main-data people-number">21</div>
+                                <div class="underline"></div>
+                                <p> millions de personnes sont envoyées d'un pays à l'autre par des réseaux criminels transnationnaux.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

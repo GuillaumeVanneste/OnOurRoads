@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/styles/intro.css">
     <link rel="stylesheet" href="assets/styles/history.css">
     <link rel="stylesheet" href="assets/styles/choose.css">
+    <link rel="stylesheet" href="assets/styles/data-intro.css">
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
