@@ -56,12 +56,54 @@
     border: 1px solid black;
 }
 
-.choose.active .wayPoints .point:nth-child(1) .description {
+.choose.active .wayPoints .point .description p
+{
+    color: #111;
+}
+
+.choose .wayPoints .point:nth-child(2) .description {
     top: 27vw;
     left: 55vw;
+    font-size: 14px;
+    padding: 3px;
+    opacity: 0;
+    transform: translate(170px, -60px) skewX(20deg);
+    transition: opacity 0.5s ease-in;
+    will-change: opacity;
+}
+
+.choose.active .wayPoints .point:nth-child(2):hover .description {
     opacity: 1;
-    transition: opacity 300ms 1000ms ease-in;
-    will-change: transform, opacity;
+}
+
+.choose .wayPoints .point:nth-child(1) .description {
+    top: 27vw;
+    left: 55vw;
+    font-size: 14px;
+    padding: 3px;
+    opacity: 0;
+    transform: translate(-15px, -5px) skewX(20deg);
+    transition: opacity 0.5s ease-in;
+    will-change: opacity;
+}
+
+.choose.active .wayPoints .point:nth-child(1):hover .description {
+    opacity: 1;
+}
+
+.choose .wayPoints .point:nth-child(3) .description {
+    top: 27vw;
+    left: 55vw;
+    font-size: 14px;
+    padding: 3px;
+    opacity: 0;
+    transform: translate(-70px, -90px) skewX(20deg);
+    transition: opacity 0.5s ease-in;
+    will-change: opacity;
+}
+
+.choose.active .wayPoints .point:nth-child(3):hover .description {
+    opacity: 1;
 }
 
 .choose.active .wayPoints .point .description p {

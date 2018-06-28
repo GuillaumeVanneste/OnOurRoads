@@ -294,18 +294,25 @@
                     <div class="wayPoints">
                         <!-- way points -->
                         <div class="point">
-                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="views/pages/prostitution.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
-                                <p>Title</p>
-                                <p>Name</p>
-                                <a href="name">Link</a>
+                                <p>Prostitution</p>
+                                <p>Mariama Biba</p>
                             </div>
                         </div>
                         <div class="point">
-                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="views/pages/organe.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <div class="description">
+                                <p>Organes</p>
+                                <p>Jonh Dixton</p>
+                            </div>
                         </div>
                         <div class="point">
-                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="views/pages/migrant.php" class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <div class="description">
+                                <p>Migrants</p>
+                                <p>Samire Nesri</p>
+                            </div>
                         </div>
                     </div>
                 </div>
