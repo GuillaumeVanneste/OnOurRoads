@@ -168,14 +168,14 @@
                     <img src="assets/images/data-image/world-map.png" alt="" class="data-map">
                 </div>
             </div>
-            <div class="row">
+            <div class="row data-fournisseur">
                 <p class="col s5 offset-s1">Fournisseur : <span class="main-data">Asie</span>, <span class="main-data">Afrique</span>, <span class="main-data">Europe de l'Est</span></p>
             </div>
             <div class="row">
                 <div class="col s1 offset-s5">
                     <img src="assets/images/data-image/arrow.png" alt="" class="data-arrow">
                 </div>
-                <p class="col s6">Receveurs : <span class="main-data">Europe</span>, <span class="main-data">Etats-Unis</span>, <span class="main-data">Monde Arabe</span></p>
+                <p class="col s6 data-receveur">Receveurs : <span class="main-data">Europe</span>, <span class="main-data">Etats-Unis</span>, <span class="main-data">Monde Arabe</span></p>
             </div>
         </div>
 

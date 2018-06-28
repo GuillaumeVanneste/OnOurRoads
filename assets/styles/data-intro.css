@@ -52,6 +52,35 @@
     opacity: 1;
 }
 
+.data-fournisseur, .data-arrow, .data-receveur
+{
+    transform: translate(-40px);
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: opacity 2s 1s ease, transform 0.5s 1.5s ease-in;
+}
+
+.data-map
+{
+    transform: translateY(-40px);
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: opacity 2s 0.5s ease, transform 0.5s 1s ease-in;
+}
+
+#section4.active .data-map
+{
+    transform: translateY(0);
+    opacity: 1;
+    will-change: transform, opacity;
+}
+
+#section4.active .data-fournisseur, #section4.active .data-arrow, #section4.active .data-receveur
+{
+    transform: translate(0);
+    opacity: 1;
+}
+
 .data p
 {
     font-size: 18px;
