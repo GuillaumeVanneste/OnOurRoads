@@ -28,7 +28,7 @@
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <div class="scale">
-                    <img src="assets/images/backgrounds/home/bg-map.png" alt="">
+                    <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="traficPoints">
                         <!-- America trafic points -->
                         <div></div>
@@ -59,7 +59,7 @@
         <div class="section" id="section1">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/prostitution/bg-pauvrete.png" alt="">
+                <img src="assets/images/backgrounds/prostitution/bg-pauvrete.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -115,7 +115,7 @@
         <div class="section history" id="section2">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/prostitution/bg-argent.png" alt="">
+                <img src="assets/images/backgrounds/prostitution/bg-argent.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -170,7 +170,7 @@
         <div class="section" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/prostitution/bg-menace.png" alt="">
+                <img src="assets/images/backgrounds/prostitution/bg-menace.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">

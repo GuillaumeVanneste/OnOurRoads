@@ -28,7 +28,7 @@
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <div class="scale">
-                    <img src="assets/images/backgrounds/home/bg-map.png" alt="">
+                    <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="traficPoints">
                         <!-- America trafic points -->
                         <div></div>
@@ -59,7 +59,7 @@
         <div class="section history" id="section1">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-history.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-history.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col m5 push-m1 subheader">
@@ -105,7 +105,7 @@
         <div class="section history" id="section2">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-history2.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-history2.jpg" alt="">
             </div>
             <div class="row">
                 <p class="col s12 m5 offset-m1 content">
@@ -168,7 +168,7 @@
         <div class="section" id="section6">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-map.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
             </div>
         </div>
 
@@ -176,7 +176,7 @@
         <div class="section choose" id="section6">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="scale">
-                    <img class="map" src="assets/images/backgrounds/home/bg-map.png" alt="">
+                    <img class="map" src="assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="wayPoints">
                         <!-- way points -->
                         <div class="point">
