@@ -18,7 +18,7 @@
 </header>
 
 <!-- MAIN -->
-<main class="main">
+<main class="main" data-page="<?php echo $page ?>">
 
     <!-- Fullpage scrolling -->
     <div id="fullpage">

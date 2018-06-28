@@ -55,12 +55,12 @@
 
 .information .infoTitle {
     font-weight: bolder;
-    margin-bottom: 24px;
-    font-size: 18px;
-    line-height: 24px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .information .infoContent {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
 }

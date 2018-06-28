@@ -27,13 +27,11 @@ const $chapter = $footer.querySelector('.chapter')
 const $chapterNumber = $chapter.querySelector('.number')
 const $chapterTitle = $chapter.querySelector('.chapterTitle')
 
-
 const $opacity = $body.querySelector('.opacity')
 const $audio = $body.querySelector('audio')
 let muted = true
 let progressOffset = (innerWidth * 8) / 100
 let progressWidth = innerWidth - progressOffset * 2
-
 
 const init = () => {
     let id = null
@@ -47,136 +45,254 @@ const init = () => {
     $fillBar.style.width = ratio + '%'
     console.log(ratio)
 
-    switch (id) {
-        case 0:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+    if($main.dataset.page === 'home') {
+        switch (id) {
+            case 0:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.remove('active')
-            $title1.classList.add('active')
-            $title2.classList.remove('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '1'
-            $chapterTitle.innerHTML = 'Histoire et formes'
-            break;
-        case 1:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.remove('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 1:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.add('active')
-            $title1.classList.add('active')
-            $title2.classList.remove('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '1'
-            $chapterTitle.innerHTML = 'Histoire et formes'
-            break;
-        case 2:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.add('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 2:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.add('active')
-            $title1.classList.add('active')
-            $title2.classList.remove('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '1'
-            $chapterTitle.innerHTML = 'Histoire et formes'
-            break;
-        case 3:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.add('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 3:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.remove('active')
-            $title1.classList.remove('active')
-            $title2.classList.add('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '2'
-            $chapterTitle.innerHTML = 'Géographie et economie'
-            break;
-        case 4:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.remove('active')
+                $title1.classList.remove('active')
+                $title2.classList.add('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 4:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.add('active')
-            $title1.classList.remove('active')
-            $title2.classList.add('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '2'
-            $chapterTitle.innerHTML = 'Géographie et economie'
-            break;
-        case 5:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.remove('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 5:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.add('active')
-            $title1.classList.remove('active')
-            $title2.classList.add('active')
-            $title3.classList.remove('active')
-            $chapterNumber.innerHTML = '2'
-            $chapterTitle.innerHTML = 'Géographie et economie'
-            break;
-        case 6:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.remove('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 6:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.remove('active')
-            $title1.classList.remove('active')
-            $title2.classList.remove('active')
-            $title3.classList.add('active')
-            $chapterNumber.innerHTML = '3'
-            $chapterTitle.innerHTML = 'Choisir une histoire'
-            break;
-        case 7:
-            for (let i = 0; i < $keypoints.length; i++) {
-                const keypoint = $keypoints[i]
-                if (i <= id) {
-                    keypoint.classList.add('borderChange')
-                } else {
-                    keypoint.classList.remove('borderChange')
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.add('active')
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Choisir une histoire'
+                break;
+        }
+    } else {
+        switch (id) {
+            case 0:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
                 }
-            }
-            $title.classList.add('active')
-            $title1.classList.remove('active')
-            $title2.classList.remove('active')
-            $title3.classList.add('active')
-            $chapterNumber.innerHTML = '3'
-            $chapterTitle.innerHTML = 'Choisir une histoire'
-            break;
+                $title.classList.remove('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 1:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 2:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Histoire et formes'
+                break;
+            case 3:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.add('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 4:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.add('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 5:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.add('active')
+                $title3.classList.remove('active')
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Géographie et economie'
+                break;
+            case 6:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.add('active')
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Choisir une histoire'
+                break;
+            case 7:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.add('active')
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Choisir une histoire'
+                break;
+        }
     }
+
 }
 window.setInterval(init, 100)
 

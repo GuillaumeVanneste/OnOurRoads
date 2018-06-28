@@ -18,7 +18,7 @@
 </header>
 
 <!-- MAIN -->
-<main class="main">
+<main class="main" data-page="<?php echo $page ?>">
 
     <!-- Fullpage scrolling -->
     <div id="fullpage">
@@ -134,9 +134,6 @@
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
-                            <h6 class="col s12 infoTitle">Qu’est-ce que c’est ?</h6>
-                        </div>
-                        <div class="row">
                             <p class="col s12 infoContent">
                                 Au Nigeria, deux façon de prostituer les mineures sont employées.</br>
                                 La première, qui se passe sans violence, consiste à abuser de la naïveté des jeunes filles (et des quelques rares jeunes hommes).
@@ -153,9 +150,6 @@
                 </div>
                 <div class="infoSideBarTwo valign-wrapper">
                     <div class="container">
-                        <div class="row">
-                            <h6 class="col s12 infoTitle">Qu’est-ce que c’est ?</h6>
-                        </div>
                         <div class="row">
                             <p class="col s12 infoContent">
                                 La deuxième méthode, plus radicale et plus violente, qui peut mener à la mort de personnes, consiste en l’enlèvement par la force
@@ -195,21 +189,42 @@
                 <div class="infoSideBar valign-wrapper">
                     <div class="container">
                         <div class="row">
-                            <h6 class="col s12 infoTitle">Qu’est-ce que c’est ?</h6>
-                        </div>
-                        <div class="row">
                             <p class="col s12 infoContent">
-                                L’expression « trafic illicite de migrants » désigne le fait d’assurer, afin d’en tirer, directement ou
-                                indirectement, un avantage financier ou un autre avantage matériel, l’entrée illégale dans un État Partie
-                                d’une personne qui n’est ni un ressortissant ni un résident permanent de cet État.</br>
-                                À l’origine la traite d’humains était un commerce parfaitement légal et accepté de tous. Petit à petit
-                                le temps à vu naître des lois interdisant ces pratiques qui ont parfois mené à des guerres.
-                                Cependant malgré toutes les lois existantes les traites existent toujours bien qu’elles aient pris de
-                                nouvelle formes. On peut même affirmer que chaque année le nombre de victimes de ces commerces illégaux
-                                augmente légèrement.
+                                Les promesses d’emplois ou de meilleures conditions de vie sont les arguments utilisés par les trafiquants
+                                pour attirer les futurs victimes et les envoyer à l’étranger.
+                                C’est ce qu’il ce passe au Nigeria, les victimes de la traite des êtres humains à des fins de prostitutions finissent
+                                en grande majorité par être exportées à l’étranger. Plus de 50 000 jeunes Nigérianes migrantes clandestines sont livrées
+                                à la prostitution. Toutes ces victimes sont envoyées vers l'Europe de l'Ouest (en particulier l'Italie avec pas moins
+                                de 10000 nigérianes, la Belgique et les Pays-Bas), les pays du Golfe, les pays d'Afrique de l'Ouest voisins (en particulier
+                                le Mali qui exploite près de 20000 nigérianes), la Malaisie, le Maroc, la Libye et la Turquie. Cette exportation ne décroît pas,
+                                elle augmente même, malgré le fait qu’un tier de la population prostituée nigériane soit séropositive. Cette exportation de masse ne fait
+                                que croître car elle suit les lois du marché qui consiste à assouvir les demandes des clients, demande qui ne fait qu’augmenter et par
+                                conséquent rend le trafic de plus en plus rentable ce qui accroît le nombre de trafiquants et donc le nombre de victimes.
+
                             </p>
                         </div>
                     </div>
+                    <a class="next"><img src="assets/images/icons/arrow.png" alt=""></a>
+                </div>
+                <div class="infoSideBarTwo valign-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <p class="col s12 infoContent">
+                                Ces victimes sont régulièrement exportées de leur pays d’origine pour les séparer de leur famille et amis afin qu’elles ne puissent
+                                pas sortir de ce cercle vicieux de la prostitution que les trafiquants maintiennent d’une main de fer. De plus, tous les 6 mois maximum,
+                                les victimes sont déplacées, elles changent de lieux pour éviter qu’elles se fassent des contacts qui pourraient leur venir en aide par la suite.
+                            </p>
+                            <p class="col s12 infoContent">
+                                Au Nigeria, le droit des femmes est assez limité. Par conséquent l’aide apporté aux femmes victimes de la traite est quasiment inexistante
+                                voire inexistante. Si de l’aide est apportée, elle sera le plus souvent apportée par des groupes non-gouvernementaux ou bien étrangers.
+                                Si les victimes ne se laisse pas envoyer à l’étranger, elles y sont contraintes par la force soit en étant battues, soit en étant violées,
+                                soit en subissant des menaces à l’encontre de leur famille et leurs amis. Ces méthodes finissent par convaincre la majorité des victimes qui
+                                finissent par croire que ceci sera leurs vies. Très peu réussissent à sortir de ce cercle en s’enfuyant. Si les victimes s’en sortent c’est
+                                qu’elles ont été sauvé ou qu’elles sont devenues à leur tour les persécuteurs.
+                            </p>
+                        </div>
+                    </div>
+                    <a class="previous"><img src="assets/images/icons/arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
