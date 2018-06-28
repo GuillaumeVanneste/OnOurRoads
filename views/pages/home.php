@@ -2,6 +2,10 @@
 <!-- HEADER -->
 <header class="header">
     <div class="title">
+        <div class="title0">
+            <h1>Une Virée</br>En Enfer</h1>
+        </div>
+
         <div class="title1">
             <h1>Histoire</br>Formes</h1>
         </div>

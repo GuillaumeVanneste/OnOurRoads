@@ -71,6 +71,7 @@ header .title {
     margin-left: 9%;
 }
 
+.title0,
 .title1,
 .title2,
 .title3,
@@ -80,6 +81,7 @@ header .title {
     will-change: opacity;
 }
 
+.title0.active,
 .title1.active,
 .title2.active,
 .title3.active,
