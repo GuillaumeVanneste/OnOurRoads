@@ -128,6 +128,49 @@
     will-change: transform, opacity;
 }
 
+/***** Way Points *****/
+
+.intro .wayPoints .point a {
+    position: absolute;
+    opacity: 0;
+    width: 3vw;
+    height: 3vw;
+    background: yellow;
+}
+
+.intro.active .wayPoints .point a:nth-child(1) {
+    top: 27vw;
+    left: 50vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .wayPoints .point a:nth-child(2) {
+    top: 31vw;
+    left: 69vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .wayPoints .point a:nth-child(3) {
+    top: 29vw;
+    left: 59vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .wayPoints .point .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .intro.fp-completely .background .traficPoints div{
     opacity: 1;
 }

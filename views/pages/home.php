@@ -9,6 +9,10 @@
         <div class="title2">
             <h1>Géographie</br>Economie</h1>
         </div>
+
+        <div class="title3">
+            <h1>Choisir</br>Une Histoire</h1>
+        </div>
         <div class="line"></div>
     </div>
 </header>
@@ -47,7 +51,6 @@
             </div>
             <div class="row center-align">
                 <h1 class="col s12">
-                    Sur nos routes
                 </h1>
             </div>
         </div>
@@ -144,5 +147,56 @@
                 <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
             </div>
         </div>
+
+        <!-- section 4 -->
+        <div class="section" id="section4">
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="opacity"></div>
+                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+            </div>
+        </div>
+
+        <!-- section 5 -->
+        <div class="section" id="section5">
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="opacity"></div>
+                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+            </div>
+        </div>
+
+        <!-- section 6 -->
+        <div class="section" id="section6">
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="opacity"></div>
+                <img src="assets/images/backgrounds/home/bg-map.png" alt="">
+            </div>
+        </div>
+
+        <!-- section 7 -->
+        <div class="section choose" id="section6">
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="scale">
+                    <img class="map" src="assets/images/backgrounds/home/bg-map.png" alt="">
+                    <div class="wayPoints">
+                        <!-- way points -->
+                        <div class="point">
+                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                            <div class="description">
+                                <p>Title</p>
+                                <p>Name</p>
+                                <a href="name">Link</a>
+                            </div>
+                        </div>
+                        <div class="point">
+                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                        </div>
+                        <div class="point">
+                            <a class="pointClick"><img src="assets/images/icons/waypoint.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div> <!-- fullpage end -->

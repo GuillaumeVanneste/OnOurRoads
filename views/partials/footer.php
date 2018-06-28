@@ -1,17 +1,25 @@
 </main>
 <!-- FOOTER -->
 <footer class="page-footer black">
-    <div class="row">
-        <div class="col s10 offset-s1 progress">
-            <div class="fillBar"></div>
+    <div class="progress">
+        <div class="keypoints">
+            <a href="#firstPage"><div data-menuanchor="firstPage" class="borderChange active firstPage"></div></a>
+            <a href="#secondPage"><div data-menuanchor="secondPage" class="secondPage"></div></a>
+            <a href="#3rdPage"><div data-menuanchor="3rdPage" class="thirdPage"></div></a>
+            <a href="#4thPage"><div data-menuanchor="4thpage" class="fourthPage"></div></a>
+            <a href="#5thPage"><div data-menuanchor="5thPage" class="fifthPage"></div></a>
+            <a href="#6thPage"><div data-menuanchor="6thPage" class="sixthPage"></div></a>
+            <a href="#7thPage"><div data-menuanchor="7thPage" class="seventhPage"></div></a>
+            <a href="#8thPage"><div data-menuanchor="8thPage" class="eighthPage"></div></a>
         </div>
+        <div class="fillBar"></div>
     </div>
     <div class="row">
-        <div class="col s4 chapter">
+        <div class="col s4 push-s1 chapter">
             <span class="number"></span>
             <span class="chapterTitle"></span>
         </div>
-        <div class="col m2 push-m10 center-align">
+        <div class="col s2 push-s6 center-align">
             <a class="waves-light waves-effect volume"><img src="assets/images/icons/speaker.png" alt=""></a>
         </div>
     </div>

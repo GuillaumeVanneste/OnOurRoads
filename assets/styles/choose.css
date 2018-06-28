@@ -1,0 +1,69 @@
+/***********************
+
+         INTRO
+
+***********************/
+
+.choose .background .map {
+    width: 100%;
+    transform: scale(1.1) translateY(-15vw);
+}
+
+/***** Way Points *****/
+
+.choose .wayPoints .point a {
+    position: absolute;
+    opacity: 0;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+.choose.active .wayPoints .point:nth-child(1) a {
+    top: 27vw;
+    left: 50vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.choose.active .wayPoints .point:nth-child(2) a {
+    top: 21vw;
+    left: 69vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.choose.active .wayPoints .point:nth-child(3) a {
+    top: 19vw;
+    left: 59vw;
+    opacity: 1;
+    transform: scale(0.6);
+    transition: transform 300ms 1000ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.choose.active .wayPoints .point .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    transform: skewX(20deg);
+    background: white;
+    border: 1px solid black;
+}
+
+.choose.active .wayPoints .point:nth-child(1) .description {
+    top: 27vw;
+    left: 55vw;
+    opacity: 1;
+    transition: opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.choose.active .wayPoints .point .description p {
+    transform: skewX(-20deg);
+}

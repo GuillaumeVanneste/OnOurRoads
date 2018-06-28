@@ -40,7 +40,6 @@
         HEADER
 
 ***********************/
-
 header .title {
     position: absolute;
     z-index: 1;
@@ -53,19 +52,17 @@ header .title {
 
 .title {
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 0;
     width: 100%;
     font-family: Rockwell;
-    opacity: 0;
-    transform: translateY(-100px);
+    transform: translateX(75px) translateY(250px);
+    transition: transform 600ms ease-out;
+    will-change: transform;
 }
 
 .title.active {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: transform 600ms 500ms ease-out, opacity 300ms 500ms ease-out;
-    will-change: opacity;
+    transform: translatex(0px) translateY(0px);
 }
 
 .title h1 {
@@ -75,23 +72,25 @@ header .title {
 }
 
 .title1,
-.title2 {
+.title2,
+.title3{
     opacity: 0;
     transition: opacity 600ms ease-in;
     will-change: opacity;
 }
 
 .title1.active,
-.title2.active {
+.title2.active,
+.title3.active {
     opacity: 1;
 }
 
 .line {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -50%;
     margin-top: 90px;
-    width: 100%;
+    width: 150%;
     height: 2px;
     background-color: #8b1014;
     transition: transform 300ms ease-in;
@@ -128,8 +127,10 @@ footer img {
 }
 
 footer .progress {
+    position: relative;
     margin: 0;
     background: transparent;
+    cursor: pointer;
 }
 
 .fillBar {
@@ -140,6 +141,64 @@ footer .progress {
     background: #9C1A1A;
     transition: width 700ms ease-out;
     will-change: width;
+}
+
+footer .keypoints {
+    position: absolute;
+    top: -3px;
+    left: 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+footer .keypoints div {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 3px solid #2A2A2A;
+    background:#2A2A2A;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+
+footer .keypoints a div.firstPage {
+    left: 0;
+}
+
+footer .keypoints a div.secondPage {
+    left: 14.3%;
+}
+
+footer .keypoints a div.thirdPage {
+    left: 28.6%;
+}
+
+footer .keypoints a div.fourthPage {
+    left: 42.9%;
+}
+
+footer .keypoints a div.fifthPage {
+    left: 57.2%;
+}
+
+footer .keypoints a div.sixthPage {
+    left: 71.5%;
+}
+
+footer .keypoints a div.seventhPage {
+    left: 85.8%;
+}
+
+footer .keypoints a div.eighthPage {
+    left: 100%;
+}
+
+footer .keypoints a div.borderChange {
+    border-color:#9C1A1A;
+    transition: all 0.4s ease-in-out;
 }
 
 
