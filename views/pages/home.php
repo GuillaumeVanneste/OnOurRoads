@@ -144,7 +144,7 @@
         <div class="section" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
         </div>
 
@@ -152,7 +152,7 @@
         <div class="section" id="section4">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
         </div>
 
@@ -160,15 +160,18 @@
         <div class="section" id="section5">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-geography.png" alt="">
+                <img src="assets/images/backgrounds/home/bg-geography.jpg" alt="">
             </div>
         </div>
 
         <!-- section 6 -->
         <div class="section" id="section6">
-            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
-                <div class="opacity"></div>
-                <img src="assets/images/backgrounds/home/bg-map.jpg" alt="">
+            <div class="row">
+                <div class="col s12 m6 offset-m3">
+                    <video class="responsive-video" controls>
+                        <source src="assets/videos/introTraficHumain.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
 
