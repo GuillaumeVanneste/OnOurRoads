@@ -143,6 +143,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="infoSideBarTwo valign-wrapper"></div>
             </div>
         </div>
 
@@ -174,6 +175,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="infoSideBarTwo valign-wrapper"></div>
             </div>
         </div>
 
