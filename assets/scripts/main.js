@@ -60,6 +60,7 @@ const init = () => {
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Histoire et formes'
                 break;
@@ -76,6 +77,7 @@ const init = () => {
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Histoire et formes'
                 break;
@@ -92,6 +94,7 @@ const init = () => {
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Histoire et formes'
                 break;
@@ -108,6 +111,7 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '2'
                 $chapterTitle.innerHTML = 'Géographie et economie'
                 break;
@@ -124,6 +128,7 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 0
                 $chapterNumber.innerHTML = '2'
                 $chapterTitle.innerHTML = 'Géographie et economie'
                 break;
@@ -140,6 +145,7 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $line.style.opacity = 0
                 $chapterNumber.innerHTML = '2'
                 $chapterTitle.innerHTML = 'Géographie et economie'
                 break;
@@ -155,7 +161,25 @@ const init = () => {
                 $title.classList.add('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $line.style.opacity = 0
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Choisir une histoire'
+                break;
+            case 7:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
                 $title3.classList.add('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '3'
                 $chapterTitle.innerHTML = 'Choisir une histoire'
                 break;
