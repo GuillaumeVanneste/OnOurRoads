@@ -1,16 +1,18 @@
 </main>
 <!-- FOOTER -->
-<footer class="page-footer black">
+<footer class="page-footer <?php if ($q === '') : ?>home<?php else : ?>story<?php endif; ?> black">
     <div class="progress">
         <div class="keypoints">
             <a href="#firstPage"><div data-menuanchor="firstPage" class="borderChange active firstPage"></div></a>
             <a href="#secondPage"><div data-menuanchor="secondPage" class="secondPage"></div></a>
             <a href="#3rdPage"><div data-menuanchor="3rdPage" class="thirdPage"></div></a>
             <a href="#4thPage"><div data-menuanchor="4thpage" class="fourthPage"></div></a>
+            <?php if ($q === '') : ?>
             <a href="#5thPage"><div data-menuanchor="5thPage" class="fifthPage"></div></a>
             <a href="#6thPage"><div data-menuanchor="6thPage" class="sixthPage"></div></a>
             <a href="#7thPage"><div data-menuanchor="7thPage" class="seventhPage"></div></a>
             <a href="#8thPage"><div data-menuanchor="8thPage" class="eighthPage"></div></a>
+            <?php endif; ?>
         </div>
         <div class="fillBar"></div>
     </div>

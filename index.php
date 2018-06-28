@@ -15,16 +15,16 @@ switch($q) {
         $page = 'home';
         break;
 
-    case 'name':
-        $page = 'name';
+    case 'prostitution':
+        $page = 'prostitution';
         break;
 
-    case 'name2':
-        $page = 'name2';
+    case 'organe':
+        $page = 'organe';
         break;
 
-    case 'name3':
-        $page = 'name3';
+    case 'migrant':
+        $page = 'migrant';
         break;
 
     default:

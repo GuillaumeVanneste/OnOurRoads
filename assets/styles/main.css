@@ -130,7 +130,6 @@ footer .progress {
     position: relative;
     margin: 0;
     background: transparent;
-    cursor: pointer;
 }
 
 .fillBar {
@@ -164,37 +163,19 @@ footer .keypoints div {
 }
 
 
-footer .keypoints a div.firstPage {
-    left: 0;
-}
+footer.home .keypoints a div.firstPage { left: 0; }
+footer.home .keypoints a div.secondPage { left: 14.3%; }
+footer.home .keypoints a div.thirdPage { left: 28.6%; }
+footer.home .keypoints a div.fourthPage { left: 42.9%; }
+footer.home .keypoints a div.fifthPage { left: 57.2%; }
+footer.home .keypoints a div.sixthPage { left: 71.5%; }
+footer.home .keypoints a div.seventhPage { left: 85.8%; }
+footer.home .keypoints a div.eighthPage { left: 100%; }
 
-footer .keypoints a div.secondPage {
-    left: 14.3%;
-}
-
-footer .keypoints a div.thirdPage {
-    left: 28.6%;
-}
-
-footer .keypoints a div.fourthPage {
-    left: 42.9%;
-}
-
-footer .keypoints a div.fifthPage {
-    left: 57.2%;
-}
-
-footer .keypoints a div.sixthPage {
-    left: 71.5%;
-}
-
-footer .keypoints a div.seventhPage {
-    left: 85.8%;
-}
-
-footer .keypoints a div.eighthPage {
-    left: 100%;
-}
+footer.story .keypoints a div.firstPage { left: 0; }
+footer.story .keypoints a div.secondPage { left: 33.3%; }
+footer.story .keypoints a div.thirdPage { left: 66.6%; }
+footer.story .keypoints a div.fourthPage { left: 100%; }
 
 footer .keypoints a div.borderChange {
     border-color:#9C1A1A;
