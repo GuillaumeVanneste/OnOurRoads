@@ -77,21 +77,21 @@
     will-change: transform, opacity;
 }
 
-/* Europa */
+/* Europe */
 .intro.active .traficPoints div:nth-child(5) {
     top: 14vw;
-    left: 54vw;
+    left: 53vw;
     opacity: 1;
-    transform: scale(1);
+    transform: scale(0.8);
     transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
     will-change: transform, opacity;
 }
 
 .intro.active .traficPoints div:nth-child(6) {
     top: 15.8vw;
-    left: 53.8vw;
+    left: 52.8vw;
     opacity: 1;
-    transform: scale(1.7);
+    transform: scale(1.3);
     transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
     will-change: transform, opacity;
 }
@@ -118,11 +118,470 @@
 /** Smaller trafics **/
 
 /* South America */
-.intro.active .traficPoints div:nth-child(8) {
-    top: 20.8vw;
-    left: 81vw;
+.intro.active .traficPoints div:nth-child(9) {
+    top: 37vw;
+    left: 30vw;
     opacity: 1;
-    transform: scale(1.7);
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(10) {
+    top: 34vw;
+    left: 27vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(11) {
+    top: 30vw;
+    left: 25.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(12) {
+    top: 31vw;
+    left: 28vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(13) {
+    top: 30vw;
+    left: 30vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(14) {
+    top: 42vw;
+    left: 28vw;
+    opacity: 1;
+    transform: scale(0.25);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(15) {
+    top: 41vw;
+    left: 32vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(16) {
+    top: 42vw;
+    left: 30.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(17) {
+    top: 15vw;
+    left: 49vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(18) {
+    top: 18.5vw;
+    left: 47.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(19) {
+    top: 19vw;
+    left: 46vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(20) {
+    top: 13vw;
+    left: 48vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(21) {
+    top: 6vw;
+    left: 43vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(22) {
+    top: 9vw;
+    left: 52.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(23) {
+    top: 9vw;
+    left: 50.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(24) {
+    top: 4.5vw;
+    left: 55.5vw;
+    opacity: 1;
+    transform: scale(0.3);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(25) {
+    top: 13.5vw;
+    left: 54vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(26) {
+    top: 12.5vw;
+    left: 56vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(27) {
+    top: 19vw;
+    left: 58vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(28) {
+    top: 20vw;
+    left: 61vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(29) {
+    top: 24vw;
+    left: 60vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(30) {
+    top: 21vw;
+    left: 63vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(31) {
+    top: 21.2vw;
+    left: 67vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(32) {
+    top: 21.9vw;
+    left: 68.5vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(33) {
+    top: 24vw;
+    left: 70vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(34) {
+    top: 16vw;
+    left: 68vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(35) {
+    top: 8vw;
+    left: 71vw;
+    opacity: 1;
+    transform: scale(5);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(36) {
+    top: 30vw;
+    left: 83.5vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(37) {
+    top: 16vw;
+    left: 77vw;
+    opacity: 1;
+    transform: scale(0.9);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(38) {
+    top: 25vw;
+    left: 77vw;
+    opacity: 1;
+    transform: scale(0.7);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(39) {
+    top: 26vw;
+    left: 81.5vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(40) {
+    top: 30vw;
+    left: 45vw;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(41) {
+    top: 26vw;
+    left: 48vw;
+    opacity: 1;
+    transform: scale(0.5);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(42) {
+    top: 25vw;
+    left: 45.5vw;
+    opacity: 1;
+    transform: scale(0.25);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(43) {
+    top: 22vw;
+    left: 49vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(44) {
+    top: 21vw;
+    left: 46.5vw;
+    opacity: 1;
+    transform: scale(0.25);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(45) {
+    top: 24vw;
+    left: 54vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(46) {
+    top: 24.3vw;
+    left: 57vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(47) {
+    top: 27vw;
+    left: 56.7vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(48) {
+    top: 29.5vw;
+    left: 57vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(49) {
+    top: 29.9vw;
+    left: 60vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(50) {
+    top: 31vw;
+    left: 59vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(51) {
+    top: 31.3vw;
+    left: 55.5vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(52) {
+    top: 33vw;
+    left: 58vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(53) {
+    top: 34.8vw;
+    left: 53vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(54) {
+    top: 35.8vw;
+    left: 56vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(55) {
+    top: 35.8vw;
+    left: 59.3vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(56) {
+    top: 37vw;
+    left: 61.5vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(57) {
+    top: 38vw;
+    left: 53vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(58) {
+    top: 38.5vw;
+    left: 55vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(59) {
+    top: 41vw;
+    left: 56vw;
+    opacity: 1;
+    transform: scale(0.4);
+    transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
+    will-change: transform, opacity;
+}
+
+.intro.active .traficPoints div:nth-child(60) {
+    top: 25.7vw;
+    left: 51vw;
+    opacity: 1;
+    transform: scale(0.4);
     transition: transform 300ms 1300ms ease-in, opacity 300ms 1000ms ease-in;
     will-change: transform, opacity;
 }
@@ -134,7 +593,6 @@
     opacity: 0;
     width: 3vw;
     height: 3vw;
-    background: yellow;
 }
 
 .intro.active .wayPoints .point a:nth-child(1) {

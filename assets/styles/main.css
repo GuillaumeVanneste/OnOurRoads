@@ -60,7 +60,6 @@ header .title {
     left: 0;
     width: 100%;
     font-family: Rockwell;
-    transform: translateX(75px) translateY(250px);
     transition: transform 600ms ease-out;
     will-change: transform;
 }
@@ -83,6 +82,10 @@ header .title {
     opacity: 0;
     transition: opacity 600ms ease-in;
     will-change: opacity;
+}
+
+.title3.home h1{
+    color: #9C1A1A;
 }
 
 .title0.active,
@@ -171,45 +174,54 @@ footer .keypoints div {
 }
 
 
-footer.home .keypoints a div.firstPage   { left: 0; }
+footer.home .keypoints a div.firstPage   { left: 0;     }
 footer.home .keypoints a div.secondPage  { left: 14.3%; }
-footer.home .keypoints a div.thirdPage   { left: 28.6%; }
-footer.home .keypoints a div.fourthPage  { left: 42.9%; }
-footer.home .keypoints a div.fifthPage   { left: 57.2%; }
-footer.home .keypoints a div.sixthPage   { left: 71.5%; }
-footer.home .keypoints a div.seventhPage { left: 85.8%; }
-footer.home .keypoints a div.eighthPage  { left: 100%; }
+footer.home .keypoints a div.thirdPage   { left: 28.5%; }
+footer.home .keypoints a div.fourthPage  { left: 42.8%; }
+footer.home .keypoints a div.fifthPage   { left: 57.1%; }
+footer.home .keypoints a div.sixthPage   { left: 71.4%; }
+footer.home .keypoints a div.seventhPage { left: 85.6%; }
+footer.home .keypoints a div.eighthPage  { left: 100%;  }
 
-footer.prostitution .keypoints a div.firstPage,
-footer.organe .keypoints a div.firstPage {
-    left: 0;
-}
-footer.prostitution .keypoints a div.secondPage,
-footer.organe .keypoints a div.secondPage {
-    left: 33.3%;
-}
-footer.prostitution .keypoints a div.thirdPage,
-footer.organe .keypoints a div.thirdPage {
-    left: 66.6%;
-}
-footer.prostitution .keypoints a div.fourthPage,
-footer.organe .keypoints a div.fourthPage {
-    left: 100%;
-}
+footer.prostitution .keypoints a div.firstPage  { left: 0;     }
+footer.prostitution .keypoints a div.secondPage { left: 33.3%; }
+footer.prostitution .keypoints a div.thirdPage  { left: 66.6%; }
+footer.prostitution .keypoints a div.fourthPage { left: 100%;  }
 
-footer.migrant .keypoints a div.firstPage   { left: 0; }
-footer.migrant .keypoints a div.secondPage  { left: 25%; }
-footer.migrant .keypoints a div.thirdPage   { left: 50%; }
-footer.migrant .keypoints a div.fourthPage  { left: 75%; }
-footer.migrant .keypoints a div.fifthPage   { left: 100%; }
+footer.migrant .keypoints a div.firstPage  { left: 0;    }
+footer.migrant .keypoints a div.secondPage { left: 20%;  }
+footer.migrant .keypoints a div.thirdPage  { left: 40%;  }
+footer.migrant .keypoints a div.fourthPage { left: 60%;  }
+footer.migrant .keypoints a div.fifthPage  { left: 80%;  }
+footer.migrant .keypoints a div.sixthPage  { left: 100%; }
+
+footer.organe .keypoints a div.firstPage   { left: 0;    }
+footer.organe .keypoints a div.secondPage  { left: 25%;  }
+footer.organe .keypoints a div.thirdPage   { left: 50%;  }
+footer.organe .keypoints a div.fourthPage  { left: 75%;  }
+footer.organe .keypoints a div.fifthPage   { left: 100%; }
 
 footer .keypoints a div.borderChange {
     border-color:#9C1A1A;
-    transition: all 0.4s ease-in-out;
+    transition: all 400ms 300ms ease-in-out;
 }
 
 footer .row {
     padding-top: 10px
+}
+
+footer .buttons {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+footer .buttons a{
+    color: white;
+    opacity: 1;
+    font-size: 16px;
 }
 
 /***********************
@@ -384,6 +396,18 @@ body .opacity {
     .infoButton {
         top: 20%;
     }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .title {
+        transform: translateX(25px) translateY(250px);
+    }
 }
 
 @media (max-width: 900px) {
@@ -420,6 +444,18 @@ body .opacity {
     .infoButton {
         top: 20%;
     }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .title {
+        transform: translateX(75px) translateY(250px);
+    }
 }
 
 @media (max-width: 650px) {
@@ -453,5 +489,17 @@ body .opacity {
 
     .infoButton {
         bottom: 10%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .title {
+        transform: translateY(250px);
     }
 }
