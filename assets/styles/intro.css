@@ -19,7 +19,6 @@
 }
 
 .intro .background img {
-    width: 100%;
     opacity: 0;
     transform: scale(1.1) translateY(-15vw);
     transition: opacity 500ms 500ms ease-in;
@@ -177,40 +176,4 @@
 
 .intro.active .background img {
     opacity: 1;
-}
-
-.intro h1 {
-    font-family: Rockwell;
-    opacity: 1;
-    color: white;
-}
-
-.intro.active h1 {
-    opacity: 0;
-    animation: fade 500ms 2000ms ease-in forwards;
-    will-change: opacity;
-}
-
-/***********************
-
-       KEYFRAMES
-
-***********************/
-
-@keyframes fade {
-    0% { opacity: 0 }
-    100% { opacity: 1 }
-}
-
-/***********************
-
-        FOOTER
-
-***********************/
-
-
-@media (max-width: 900px) {
-    .intro .background .scale {
-        transform: scale(1.6) translateY(15vw);
-    }
 }

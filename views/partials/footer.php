@@ -19,11 +19,11 @@
         <div class="fillBar"></div>
     </div>
     <div class="row">
-        <div class="col s4 push-s1 chapter">
+        <div class="col s7 push-s1 m4 push-m1 chapter">
             <span class="number"></span>
             <span class="chapterTitle"></span>
         </div>
-        <div class="col s2 push-s6 center-align">
+        <div class="col s2 push-s2 m1 push-m6 center-align">
             <a class="waves-light waves-effect volume"><img src="assets/images/icons/speaker.png" alt=""></a>
         </div>
     </div>

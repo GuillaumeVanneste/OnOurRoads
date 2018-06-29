@@ -170,7 +170,7 @@ const init = () => {
                 $title3.classList.remove('active')
                 $line.style.opacity = 0
                 $chapterNumber.innerHTML = '3'
-                $chapterTitle.innerHTML = 'Un trafic modial'
+                $chapterTitle.innerHTML = 'Un trafic mondial'
                 break;
             case 7:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -207,7 +207,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Pauvreté et précarité'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -223,7 +223,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Pauvreté et précarité'
                 break;
             case 2:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -238,8 +238,8 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'La quête d\'argent'
                 break;
             case 3:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -254,8 +254,8 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
-                $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Exportation et menace'
                 break;
         }
     } else if ($main.dataset.page === 'migrant') { // migrant page
@@ -275,7 +275,7 @@ const init = () => {
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Les migrant'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -292,7 +292,7 @@ const init = () => {
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Les migrant'
                 break;
             case 2:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -308,8 +308,8 @@ const init = () => {
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Guerre et violence'
                 break;
             case 3:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -325,8 +325,8 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
                 $title4.classList.remove('active')
-                $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Kidnapping et esclavagisme'
                 break;
             case 4:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -342,8 +342,8 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.add('active')
-                $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Géographie et economie'
+                $chapterNumber.innerHTML = '4'
+                $chapterTitle.innerHTML = 'La voie de la mer'
                 break;
         }
     } else if ($main.dataset.page === 'organe') { // organe page
@@ -362,7 +362,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Le départ'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -378,7 +378,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterTitle.innerHTML = 'Le départ'
                 break;
             case 2:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -393,8 +393,8 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Arrivé au Pakistan'
                 break;
             case 3:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -409,8 +409,8 @@ const init = () => {
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Hopital'
                 break;
         }
     }
@@ -435,7 +435,7 @@ $volumeButton.addEventListener('mousedown', () => {
 for (let i = 0; i < $infoButtons.length; i++) {
     const button = $infoButtons[i]
     // Player send a malus
-    button.addEventListener("mouseup", () => {
+    button.addEventListener("mousedown", () => {
         const sideBar = $infoSideBars[i]
         if (sideBar.classList.contains('active')) {
             $line.classList.remove('active')
@@ -459,7 +459,8 @@ window.addEventListener('mousewheel', () => {
         const sideBar = $infoSideBars[i]
         sideBar.classList.remove('active')
         $opacityBack[i].classList.remove('active')
-        $infoSideBars2[i].classList.remove('active')
+        if ($main.dataset.page !== 'home')
+            $infoSideBars2[i].classList.remove('active')
     }
 })
 
@@ -470,7 +471,8 @@ $opacity.addEventListener('mousedown', () => {
         const sideBar = $infoSideBars[i]
         sideBar.classList.remove('active')
         $opacityBack[i].classList.remove('active')
-        $infoSideBars2[i].classList.remove('active')
+        if ($main.dataset.page !== 'home')
+            $infoSideBars2[i].classList.remove('active')
     }
 })
 
@@ -482,7 +484,8 @@ window.addEventListener('keydown', (event) => {
             const sideBar = $infoSideBars[i]
             sideBar.classList.remove('active')
             $opacityBack[i].classList.remove('active')
-            $infoSideBars2[i].classList.remove('active')
+            if ($main.dataset.page !== 'home')
+                $infoSideBars2[i].classList.remove('active')
         }
     }
 })

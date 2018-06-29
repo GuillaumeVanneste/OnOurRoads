@@ -298,21 +298,21 @@
                     <div class="wayPoints">
                         <!-- way points -->
                         <div class="point">
-                            <a href="<?php echo URL ?>views/pages/prostitution.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>prostitution" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Prostitution</p>
                                 <p>Mariama Biba</p>
                             </div>
                         </div>
                         <div class="point">
-                            <a href="<?php echo URL ?>views/pages/organe.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>organe" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Organes</p>
                                 <p>Jonh Dixton</p>
                             </div>
                         </div>
                         <div class="point">
-                            <a href="<?php echo URL ?>views/pages/migrant.php" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
+                            <a href="<?php echo URL ?>migrant" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Migrants</p>
                                 <p>Samire Nesri</p>
