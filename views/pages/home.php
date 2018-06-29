@@ -14,7 +14,7 @@
             <h1>Géographie</br>Economie</h1>
         </div>
 
-        <div class="title3">
+        <div class="title3 home">
             <h1>Choisir</br>Une Histoire</h1>
         </div>
         <div class="line"></div>
@@ -50,6 +50,9 @@
                         <!-- Asia trafic points -->
                         <div></div>
 
+                        <!-- More trafic points -->
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     </div>
                 </div>
             </div>
@@ -292,7 +295,7 @@
 
         <!-- section 7 -->
         <div class="section choose" id="section6">
-            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+            <div class="background js-cursor-parallax center-align desktop" data-amplitude="1.8" >
                 <div class="scale">
                     <img class="map" src="<?php echo URL ?>assets/images/backgrounds/home/bg-map.jpg" alt="">
                     <div class="wayPoints">
@@ -301,14 +304,14 @@
                             <a href="<?php echo URL ?>prostitution" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Prostitution</p>
-                                <p>Mariama Biba</p>
+                                <p>Kebe Biba</p>
                             </div>
                         </div>
                         <div class="point">
                             <a href="<?php echo URL ?>organe" class="pointClick"><img src="<?php echo URL ?>assets/images/icons/waypoint.png" alt=""></a>
                             <div class="description">
                                 <p>Organes</p>
-                                <p>Jonh Dixton</p>
+                                <p>Alexandre Dixton</p>
                             </div>
                         </div>
                         <div class="point">
@@ -316,6 +319,51 @@
                             <div class="description">
                                 <p>Migrants</p>
                                 <p>Samire Nesri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-4">
+                            <div class="card-content white-text">
+                                <span class="card-title">Trafic de prostitution</span>
+                                <p>
+                                    Kebe Biba
+                                </p>
+                            </div>
+                            <div class="card-action red-text">
+                                <a href="<?php echo URL ?>prostitution">Suivre cette histoire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-4">
+                            <div class="card-content white-text">
+                                <span class="card-title">Trafic d'organes</span>
+                                <p>
+                                    Alexandre Dixton
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="<?php echo URL ?>organe">Suivre cette histoire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-4">
+                            <div class="card-content white-text">
+                                <span class="card-title">Trafic de migrants</span>
+                                <p>
+                                    Samire Nesri
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="<?php echo URL ?>migrant">Suivre cette histoire</a>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,10 @@
 <!-- HEADER -->
 <header class="header">
     <div class="title">
+        <div class="title0">
+            <h1>Samire</br>Nesri</h1>
+        </div>
+
         <div class="title1">
             <h1>Les</br>Migrants</h1>
         </div>
@@ -50,6 +54,11 @@
                         <!-- Asia trafic points -->
                         <div></div>
 
+                        <!-- More trafic points -->
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
+
                     </div>
                 </div>
             </div>
@@ -60,7 +69,20 @@
         </div>
 
         <!-- section 1 -->
-        <div class="section" id="section1">
+        <div class="section intro" id="section1">
+            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+                <div class="scale">
+                    <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-map.jpg" alt="">
+                </div>
+            </div>
+            <div class="row center-align">
+                <h1 class="col s12">
+                </h1>
+            </div>
+        </div>
+
+        <!-- section 2 -->
+        <div class="section" id="section2">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-migrants.jpg" alt="">
@@ -102,8 +124,8 @@
             </div>
         </div>
 
-        <!-- section 1 -->
-        <div class="section" id="section1">
+        <!-- section 3 -->
+        <div class="section" id="section3">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-guerre.jpg" alt="">
@@ -153,8 +175,8 @@
             </div>
         </div>
 
-        <!-- section 3 -->
-        <div class="section history" id="section3">
+        <!-- section 4 -->
+        <div class="section history" id="section4">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-esclavagisme.jpg" alt="">
@@ -192,8 +214,8 @@
             </div>
         </div>
 
-        <!-- section 4 -->
-        <div class="section" id="section4">
+        <!-- section 5 -->
+        <div class="section" id="section5">
             <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
                 <div class="opacity"></div>
                 <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-mer.jpg" alt="">
@@ -251,5 +273,6 @@
                 </div>
             </div>
         </div>
+
 
     </div> <!-- fullpage end -->

@@ -30,8 +30,12 @@ const $chapterNumber = $chapter.querySelector('.number')
 const $chapterTitle = $chapter.querySelector('.chapterTitle')
 
 const $opacity = $body.querySelector('.opacity')
-const $audio = $body.querySelector('audio')
+const $audioBackground = $body.querySelector('.backgroundSound')
+const $audioVoixOff = $body.querySelector('.voixOff')
 let muted = true
+
+$audioVoixOff.volume = 1
+$audioBackground.volume = 0.4
 
 const init = () => {
     let id = null
@@ -73,6 +77,8 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioBackground.play()
+                $audioVoixOff.play()
                 $title.classList.add('active')
                 $title0.classList.remove('active')
                 $title1.classList.add('active')
@@ -91,6 +97,7 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioVoixOff.play()
                 $title.classList.add('active')
                 $title0.classList.remove('active')
                 $title1.classList.add('active')
@@ -109,6 +116,7 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioVoixOff.pause()
                 $title.classList.remove('active')
                 $title0.classList.remove('active')
                 $title1.classList.remove('active')
@@ -127,6 +135,7 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioVoixOff.pause()
                 $title.classList.remove('active')
                 $title0.classList.remove('active')
                 $title1.classList.remove('active')
@@ -145,6 +154,7 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioVoixOff.pause()
                 $title.classList.remove('active')
                 $title0.classList.remove('active')
                 $title1.classList.remove('active')
@@ -163,6 +173,7 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
+                $audioVoixOff.pause()
                 $title.classList.add('active')
                 $title0.classList.remove('active')
                 $title1.classList.remove('active')
@@ -203,11 +214,12 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
-                $title1.classList.add('active')
+                $title0.classList.add('active')
+                $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Pauvreté et précarité'
+                $chapterNumber.innerHTML = ''
+                $chapterTitle.innerHTML = 'Kebe Biba'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -219,6 +231,7 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
@@ -235,6 +248,7 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
@@ -251,6 +265,7 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
@@ -270,12 +285,13 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
-                $title1.classList.add('active')
+                $title0.classList.add('active')
+                $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Les migrant'
+                $chapterNumber.innerHTML = ''
+                $chapterTitle.innerHTML = 'Samire Nesri'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -287,7 +303,8 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
-                $title1.classList.add('active')
+                $title0.classList.remove('active')
+                $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
@@ -304,12 +321,13 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
-                $title1.classList.remove('active')
-                $title2.classList.add('active')
+                $title0.classList.remove('active')
+                $title1.classList.add('active')
+                $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
-                $chapterNumber.innerHTML = '2'
-                $chapterTitle.innerHTML = 'Guerre et violence'
+                $chapterNumber.innerHTML = '1'
+                $chapterTitle.innerHTML = 'Les migrant'
                 break;
             case 3:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -321,12 +339,13 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
-                $title2.classList.remove('active')
-                $title3.classList.add('active')
+                $title2.classList.add('active')
+                $title3.classList.remove('active')
                 $title4.classList.remove('active')
-                $chapterNumber.innerHTML = '3'
-                $chapterTitle.innerHTML = 'Kidnapping et esclavagisme'
+                $chapterNumber.innerHTML = '2'
+                $chapterTitle.innerHTML = 'Guerre et violence'
                 break;
             case 4:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -338,6 +357,25 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.add('active')
+                $title4.classList.remove('active')
+                $chapterNumber.innerHTML = '3'
+                $chapterTitle.innerHTML = 'Kidnapping et esclavagisme'
+                break;
+            case 5:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
@@ -358,11 +396,13 @@ const init = () => {
                     }
                 }
                 $title.classList.remove('active')
-                $title1.classList.add('active')
+                $title0.classList.add('active')
+                $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Le départ'
+                $title4.classList.remove('active')
+                $chapterNumber.innerHTML = ''
+                $chapterTitle.innerHTML = 'Alexandre Dixton'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
@@ -374,9 +414,11 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.add('active')
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
+                $title4.classList.remove('active')
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Le départ'
                 break;
@@ -390,9 +432,11 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
+                $title4.classList.remove('active')
                 $chapterNumber.innerHTML = '2'
                 $chapterTitle.innerHTML = 'Arrivé au Pakistan'
                 break;
@@ -406,11 +450,31 @@ const init = () => {
                     }
                 }
                 $title.classList.add('active')
+                $title0.classList.remove('active')
                 $title1.classList.remove('active')
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
+                $title4.classList.remove('active')
                 $chapterNumber.innerHTML = '3'
                 $chapterTitle.innerHTML = 'Hopital'
+                break;
+            case 4:
+                for (let i = 0; i < $keypoints.length; i++) {
+                    const keypoint = $keypoints[i]
+                    if (i <= id) {
+                        keypoint.classList.add('borderChange')
+                    } else {
+                        keypoint.classList.remove('borderChange')
+                    }
+                }
+                $title.classList.add('active')
+                $title0.classList.remove('active')
+                $title1.classList.remove('active')
+                $title2.classList.remove('active')
+                $title3.classList.remove('active')
+                $title4.classList.add('active')
+                $chapterNumber.innerHTML = '4'
+                $chapterTitle.innerHTML = 'Et après ?'
                 break;
         }
     }

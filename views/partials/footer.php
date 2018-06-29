@@ -1,6 +1,18 @@
 </main>
 <!-- FOOTER -->
 <footer class="page-footer <?php echo $page ?> black">
+    <?php if ($page !== 'home') : ?>
+        <div class="buttons">
+            <div class="row">
+                <div class="col s6 m3 offset-m1">
+                    <a href="<?php echo URL ?>">Retour à l'accueil</a>
+                </div>
+                <div class="col s6 m3 offset-m5">
+                    <a href="<?php echo URL ?>#8thPage">Choisir une autre histoire</a>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
     <div class="progress">
         <div class="keypoints">
             <a href="#firstPage"><div data-menuanchor="firstPage" class="borderChange active firstPage"></div></a>
@@ -12,8 +24,11 @@
                 <a href="#6thPage"><div data-menuanchor="6thPage" class="sixthPage"></div></a>
                 <a href="#7thPage"><div data-menuanchor="7thPage" class="seventhPage"></div></a>
                 <a href="#8thPage"><div data-menuanchor="8thPage" class="eighthPage"></div></a>
-            <?php elseif ($page === 'migrant') : ?>
+            <?php elseif ( $page === 'organe') : ?>
                 <a href="#5thPage"><div data-menuanchor="5thPage" class="fifthPage"></div></a>
+            <?php elseif ( $page === 'migrant' ) : ?>
+                <a href="#5thPage"><div data-menuanchor="5thPage" class="fifthPage"></div></a>
+                <a href="#6thPage"><div data-menuanchor="6thPage" class="sixthPage"></div></a>
             <?php endif; ?>
         </div>
         <div class="fillBar"></div>
@@ -28,7 +43,8 @@
         </div>
     </div>
 </footer>
-<audio src="<?php echo URL ?>assets/audios/backgroundSound.mp3" allow="autoplay" loop></audio>
+<audio class="backgroundSound" src="<?php echo URL ?>assets/audios/backgroundSound.mp3" allow="autoplay" loop></audio>
+<audio class="voixOff" src="<?php echo URL ?>assets/audios/voixOff.m4a"></audio>
 <!-- SCRIPTS -->
 <!-- Jquery library for fullpagejs -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

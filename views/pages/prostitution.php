@@ -2,6 +2,10 @@
 <!-- HEADER -->
 <header class="header">
     <div class="title">
+        <div class="title0">
+            <h1>Kebe</br>Biba</h1>
+        </div>
+
         <div class="title1">
             <h1>Pauvreté</br>Précarité</h1>
         </div>
@@ -45,6 +49,11 @@
 
                         <!-- Asia trafic points -->
                         <div></div>
+
+                        <!-- More trafic points -->
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
 
                     </div>
                 </div>
