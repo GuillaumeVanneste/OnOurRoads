@@ -77,7 +77,6 @@ const init = () => {
                         keypoint.classList.remove('borderChange')
                     }
                 }
-                $audioBackground.play()
                 $audioVoixOff.play()
                 $title.classList.add('active')
                 $title0.classList.remove('active')
@@ -490,10 +489,10 @@ window.setInterval(init, 100)
 
 const initSound = () => {
     if (muted) {
-        $audio.play()
+        $audioBackground.play()
         muted = false
     } else {
-        $audio.pause()
+        $audioBackground.pause()
         muted = true
     }
 }
