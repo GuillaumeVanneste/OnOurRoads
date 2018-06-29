@@ -7,7 +7,7 @@
  */
 
 // URL
-define('URL', '/onOurRoads/');
+define('URL', '');
 
 // Rooter
 $q = empty($_GET['q']) ? '' : $_GET['q'];
