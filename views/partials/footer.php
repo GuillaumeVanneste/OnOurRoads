@@ -7,7 +7,7 @@
                 <div class="col s6 m3 offset-m1">
                     <a href="<?php echo URL ?>">Retour à l'accueil</a>
                 </div>
-                <div class="col s5 m3 offset-m5 right">
+                <div class="col s5 m2 offset-m6 right">
                     <a href="<?php echo URL ?>#8thPage">Changer d'histoire</a>
                 </div>
             </div>

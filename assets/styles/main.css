@@ -276,7 +276,7 @@ body {
 .information .previous,
 .information .next{
     position: absolute;
-    bottom: 8%;
+    bottom: 12%;
     left: 50%;
     width: 16px;
     cursor: pointer;
