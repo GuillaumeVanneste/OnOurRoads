@@ -5,16 +5,6 @@
 ***********************/
 
 @font-face {
-    font-family: "American Typewriter";
-    src: url("../fonts/AmericanTypewriter.ttc"),
-}
-
-@font-face {
-    font-family: "Avenir-Next";
-    src: url("../fonts/Avenir-Next.ttc"),
-}
-
-@font-face {
     font-family: "Rockwell";
     src: url("../fonts/Rockwell.ttc"),
 }
@@ -350,6 +340,21 @@ body .opacity.active,
     opacity: 0.55;
 }
 
+.migrantData .data {
+    color: #8b1014;
+    font-size: 32px;
+}
+
+.migrantData .sub {
+    margin-bottom: 14px;
+}
+
+
+.migrantData .date {
+    margin-bottom: 14px;
+}
+
+
 /***********************
 
         Z-INDEX
@@ -408,6 +413,16 @@ body .opacity {
     .title {
         transform: translateX(25px) translateY(250px);
     }
+
+    .migrantMap img {
+        width: 100%;
+    }
+
+    .migrantData {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -456,6 +471,16 @@ body .opacity {
     .title {
         transform: translateX(75px) translateY(250px);
     }
+
+    .migrantMap img {
+        width: 100%;
+    }
+
+    .migrantData {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -488,7 +513,7 @@ body .opacity {
     }
 
     .infoButton {
-        bottom: 10%;
+        bottom: 14%;
     }
 
     .mobile {
@@ -501,5 +526,13 @@ body .opacity {
 
     .title {
         transform: translateY(250px);
+    }
+
+    .migrantMap img {
+        display: none;
+    }
+
+    .migrantData {
+        text-align: center;
     }
 }

@@ -69,15 +69,42 @@
         </div>
 
         <!-- section 1 -->
-        <div class="section intro" id="section1">
-            <div class="background js-cursor-parallax center-align" data-amplitude="1.8" >
+        <div class="section" id="section1">
+            <div class="migrantMap" data-amplitude="1.8" >
                 <div class="scale">
                     <img src="<?php echo URL ?>assets/images/backgrounds/migrant/bg-map.jpg" alt="">
                 </div>
             </div>
-            <div class="row center-align">
-                <h1 class="col s12">
-                </h1>
+            <div class="migrantData">
+                <div class="row data">
+                    <p class="col s12 sub">
+                        Nombre de migrants recensés en Europe :
+                    </p>
+                    <p class="col s12 main-data">
+                        216 054
+                    </p>
+                    <p class="col s12 date">
+                        2014
+                    </p>
+                    <p class="col s12 main-data">
+                        1 015 078
+                    </p>
+                    <p class="col s12 date">
+                        2015
+                    </p>
+                    <p class="col s12 main-data">
+                        362 753
+                    </p>
+                    <p class="col s12 date">
+                        2016
+                    </p>
+                    <p class="col s12 main-data">
+                        172 301
+                    </p>
+                    <p class="col s12">
+                        2017
+                    </p>
+                </div>
             </div>
         </div>
 

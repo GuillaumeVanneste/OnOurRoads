@@ -290,6 +290,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = ''
                 $chapterTitle.innerHTML = 'Samire Nesri'
                 break;
@@ -308,6 +309,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
+                $line.style.opacity = 0
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Les migrant'
                 break;
@@ -326,6 +328,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '1'
                 $chapterTitle.innerHTML = 'Les migrant'
                 break;
@@ -344,6 +347,7 @@ const init = () => {
                 $title2.classList.add('active')
                 $title3.classList.remove('active')
                 $title4.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '2'
                 $chapterTitle.innerHTML = 'Guerre et violence'
                 break;
@@ -362,6 +366,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.add('active')
                 $title4.classList.remove('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '3'
                 $chapterTitle.innerHTML = 'Kidnapping et esclavagisme'
                 break;
@@ -380,6 +385,7 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $title4.classList.add('active')
+                $line.style.opacity = 1
                 $chapterNumber.innerHTML = '4'
                 $chapterTitle.innerHTML = 'La voie de la mer'
                 break;
