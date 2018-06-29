@@ -47,7 +47,7 @@
 <audio class="voixOff" src="<?php echo URL ?>assets/audios/voixOff.m4a"></audio>
 <!-- SCRIPTS -->
 <!-- Jquery library for fullpagejs -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php echo URL ?>assets/scripts/jquery.js"></script>
 <!-- Fullpagejs scripts -->
 <script src="<?php echo URL ?>assets/fullpagejs/vendors/jquery.easings.min.js"></script>
 <script type="text/javascript" src="<?php echo URL ?>assets/fullpagejs/vendors/scrolloverflow.min.js"></script>
