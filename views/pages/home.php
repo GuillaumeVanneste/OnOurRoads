@@ -3,7 +3,7 @@
 <header class="header">
     <div class="title">
         <div class="title0">
-            <h1>Une Virée</br>En Enfer</h1>
+            <h1>Une Virée En Enfer : le traic d'être humain,</br>une illégalité séculaire</h1>
         </div>
 
         <div class="title1">

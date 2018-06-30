@@ -65,8 +65,8 @@ const init = () => {
                 $title2.classList.remove('active')
                 $title3.classList.remove('active')
                 $line.style.opacity = 1
-                $chapterNumber.innerHTML = '1'
-                $chapterTitle.innerHTML = 'Histoire et formes'
+                $chapterNumber.innerHTML = ''
+                $chapterTitle.innerHTML = 'Le trafic d\'être humain'
                 break;
             case 1:
                 for (let i = 0; i < $keypoints.length; i++) {
