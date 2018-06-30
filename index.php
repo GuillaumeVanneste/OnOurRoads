@@ -7,7 +7,7 @@
  */
 
 // URL
-define('URL', '');
+define('URL', 'https://viree-enfer.herokuapp.com/');
 
 // Rooter
 $q = empty($_GET['q']) ? '' : $_GET['q'];
